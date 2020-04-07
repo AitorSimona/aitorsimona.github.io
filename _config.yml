@@ -88,6 +88,7 @@ pagination:
 ############################################################
 
 ### Phantom settings
+paginate: 1000
 footer_intro: 'This theme is a modification of '
 footer_outro: 'by Jami Gibbs.'
 phantom_theme: 'Phantom'
