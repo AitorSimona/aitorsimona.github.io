@@ -1,0 +1,31 @@
+<p class="text-center">
+
+    <element class="highlight">
+        <element class="go">
+            {{ site.data.about.intro }}
+        </element>
+    </element>
+
+    <br><br>
+
+    {{ site.data.about.university_intro }}
+    <element class="highlight">
+        <element class="gs">
+            {{ site.data.about.university_degree }}
+        </element>
+    </element>
+    at
+    <element class="highlight">
+        <element class="gs">
+            <a href="{{ site.data.about.university_url }}">{{ site.data.about.university_name }}</a>
+        </element>
+    </element>
+    .
+
+    {{ site.data.about.outro }}
+
+    <br><br><br>
+
+    <img class="img-responsive img-circle my-profile-pic" src="{{ site.data.about.myself_img }}">
+
+</p>
