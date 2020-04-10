@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Welcome!. I'm Aitor Simona."
+title: "Welcome! I'm Aitor Simona."
 email: 'simonaaitor@gmail.com'
-description: "I'm a Game Developer from Barcelona."
+description: "I'm a Game Developer currently at Barcelona."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aitorsimona.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 linkedin_url: 'https://www.linkedin.com/in/aitor-simona-bouzas-aab43817b/'
@@ -93,12 +93,12 @@ footer_intro: 'This theme is a modification of '
 footer_outro: 'by Jami Gibbs.'
 phantom_theme: 'Phantom'
 phantom_theme_url: 'https://github.com/jamigibbs/phantom'
-admin_name: 'Jami Gibbs'
+admin_name: 'Aitor Simona'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
 #### Phantom Navigation menu
-enable_nav: true
+enable_nav: false
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
