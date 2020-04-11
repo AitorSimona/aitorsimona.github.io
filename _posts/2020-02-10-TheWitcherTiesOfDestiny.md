@@ -3,7 +3,7 @@ layout: inner
 position: right
 title: '2020: The Witcher: Ties of Destiny'
 date: 2020-02-10 
-categories: project3
+categories: posts
 tags: TheWitcher GameEngine C++ SDL OpenGL DearImGui Recast PhysX Lua
 featured_image: '/img/posts/WITCHER.gif'
 project_link: 'https://github.com/Broken-Gem-Studio'
