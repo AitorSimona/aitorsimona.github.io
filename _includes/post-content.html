@@ -1,7 +1,7 @@
 <div class="content">
   <h3 class="title">{{ post.title }}</h3>
 
-  <p class="excerpt">{{ post.lead_text }}</p>
+  <p class="excerpt">{{ post.lead_text }}
 
   {% if post.contribution != empty %}
     <ul>
@@ -14,6 +14,8 @@
     {% endfor %}
     </ul>
   {% endif %}
+
+</p>
 
   {% if post.project_link != empty %}
   <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
