@@ -3,6 +3,18 @@
 
   <p class="excerpt">{{ post.lead_text }}</p>
 
+  {% if post.contribution != empty %}
+    <ul>
+    {% for snippet in post.contribution %}
+      <li>
+        <p>
+        {{ snippet }}
+        </p>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
   {% if post.project_link != empty %}
   <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
   {% endif %}
