@@ -13,6 +13,6 @@ lead_text: 'A Hack n Slash based on The Witcher Series'
 contribution: 
 	- This is a test
 	- second line
-body: 'Made by all the class (29 people) on our own game engine, Broken Engine. It was based on my first game engine CENTRAL 3D'
 
+body: 'Made by all the class (29 people) on our own game engine, Broken Engine. It was based on my first game engine CENTRAL 3D'
 ---
