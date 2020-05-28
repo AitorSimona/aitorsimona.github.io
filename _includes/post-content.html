@@ -1,59 +1,58 @@
 <div class="content">
-  <h3 class="title">{{ post.title }}</h3>
+    <h3 class="title">{{ post.title }}</h3>
 
-  <p class="excerpt">
+    <p class="excerpt">
 
+        {% if post.lead_text != empty %}
+        {{ post.lead_text }}
+        {% endif %}
 
-    {% if post.lead_text != empty %}
-    {{ post.lead_text }}
+        <br>
+
+        {% if post.contribution != empty %}
+
+        <br>
+
+        <element class="highlight">
+            <element class="gs">
+                My
+                {% if post.individual_contribution_url != empty %}
+                <a href="{{ post.individual_contribution_url }}">individual contribution</a>:
+                {% else %}
+                individual contribution:
+                {% endif %}
+            </element>
+        </element>
+
+        <ul>
+        {% for snippet in post.contribution %}
+          <li>
+            <p>
+            {{ snippet }}
+            </p>
+          </li>
+        {% endfor %}
+        </ul>
+
+    </p>
+
+    {% if post.project_link != empty %}
+    <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
     {% endif %}
 
-    {% if post.contribution != empty %}
-
-     <element class="highlight">
-       <element class="gs">
-         My 
-         {% if post.individual_contribution_url != empty %}
-         <a href="{{ post.individual_contribution_url }}">individual contribution</a>:
-         {% else %}
-         individual contribution:
-         {% endif %}
-       </element>
-     </element>
-
-  
-     <ul>
-     {% for snippet in post.contribution %}
-        <li>
-          <p>
-          {{ snippet }}
-          </p>
-        </li>
-     {% endfor %}
-     </ul>
-
+    {% if post.tags != empty %}
+    <div class="tags">
+        {% for tag in post.tags %}
+        <span>{{ tag }}</span>
+        {% endfor %}
+    </div>
     {% endif %}
 
-
-  </p>
-
-  {% if post.project_link != empty %}
-  <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
-  {% endif %}
-
-  {% if post.tags != empty %}
-  <div class="tags">
-    {% for tag in post.tags %}
-    <span>{{ tag }}</span>
-    {% endfor %}
-  </div>
-  {% endif %}
-
-  <!-- {% if post.categories != empty %}
-  <div class="categories">
-    {% for category in post.categories %}
-      <span>{{ category }}</span>
-    {% endfor %}
-  </div>
-  {% endif %} -->
+    {% if post.categories != empty %}
+    <div class="categories">
+        {% for category in post.categories %}
+        <span>{{ category }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
 </div>
