@@ -6,6 +6,7 @@ date: 2019-02-10
 categories: posts
 tags: AI A* C++ SDL 
 team: 1
+contribution: ''
 featured_image: '/img/posts/GroupMovement.gif'
 project_link: 'https://aitorsimona.github.io/Research_GroupMovement/'
 button_icon: 'flask'

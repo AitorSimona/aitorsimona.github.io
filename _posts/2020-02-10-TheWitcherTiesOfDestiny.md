@@ -10,10 +10,7 @@ team: 29
 featured_image: '/img/posts/WITCHER.gif'
 lead_text: 'A Hack n Slash based on The Witcher Series. Made by all the class (29 people) on our own game engine, Broken Engine. It was based on my first game engine CENTRAL 3D'
 contribution: 
- - This is a test
- - second line
- - third line
- - fourth line
+ - This project is still not finished
 project_link: 'https://github.com/Broken-Gem-Studio/'
 button_icon: 'flask'
 button_text: 'Visit Project'
