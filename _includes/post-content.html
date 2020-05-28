@@ -4,7 +4,9 @@
   <p class="excerpt">{{ post.lead_text }}
 
   {% if post.contribution != empty %}
+
     <ul>
+   <div class="snippet">
     {% for snippet in post.contribution %}
       <li>
         <p>
@@ -12,7 +14,9 @@
         </p>
       </li>
     {% endfor %}
+  </div>
     </ul>
+
   {% endif %}
 
 </p>
