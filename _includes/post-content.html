@@ -3,10 +3,19 @@
 
   <p class="excerpt">{{ post.lead_text }}
 
+    <element class="highlight">
+      <element class="gs">
+        My 
+        {% if post.individual_contribution_url != empty %}
+        <a href="{{ post.individual_contribution_url }}">individual contribution</a>:
+        {% else %}
+        individual contribution:
+        {% endif %}
+      </element>
+    </element>
   {% if post.contribution != empty %}
 
-    <ul>
-   <div class="snippet">
+  <ul>
     {% for snippet in post.contribution %}
       <li>
         <p>
@@ -14,8 +23,7 @@
         </p>
       </li>
     {% endfor %}
-  </div>
-    </ul>
+  </ul>
 
   {% endif %}
 
