@@ -7,7 +7,7 @@ categories: posts
 tags: SideScroller PixelArt C++ SDL 
 team: 4
 contribution_url: ''
-featured_image: '/img/posts/LastResort.png'
+featured_image: '/img/posts/LastResort.gif'
 project_link: 'https://syncorelastresort.github.io/Last_Resort_Syncore/'
 button_icon: 'flask'
 button_text: 'Visit Project'
