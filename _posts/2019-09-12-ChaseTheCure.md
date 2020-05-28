@@ -5,6 +5,7 @@ title: '2019: Chase The Cure'
 date: 2019-09-12
 categories: posts
 tags: AI Unity NodeCanvas C# 
+team: 2
 featured_image: '/img/posts/ChaseTheCure.gif'
 project_link: 'https://aitorsimona.github.io/ChaseTheCure/'
 button_icon: 'flask'

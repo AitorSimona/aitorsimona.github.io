@@ -18,6 +18,15 @@
 
     <element class="highlight">
       <element class="gs"> 
+        Team Size: 
+        {% if post.team != empty %}
+        {{ post.team }}
+        {% endif %}
+      </element>
+    </element>
+
+    <element class="highlight">
+      <element class="gs"> 
         {% if post.individual_contribution_url != empty %}
         <a href="{{ post.individual_contribution_url }}">Personal contribution</a>:
         {% else %}
