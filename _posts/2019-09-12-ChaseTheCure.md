@@ -6,6 +6,7 @@ date: 2019-09-12
 categories: posts
 tags: AI Unity NodeCanvas C# 
 team: 2
+contribution_url: 'https://aitorsimona.github.io/ChaseTheCure/'
 featured_image: '/img/posts/ChaseTheCure.gif'
 project_link: 'https://aitorsimona.github.io/ChaseTheCure/'
 button_icon: 'flask'

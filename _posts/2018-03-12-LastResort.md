@@ -6,6 +6,7 @@ date: 2018-03-12
 categories: posts
 tags: SideScroller PixelArt C++ SDL 
 team: 4
+contribution_url: ''
 featured_image: '/img/posts/LastResort.png'
 project_link: 'https://syncorelastresort.github.io/Last_Resort_Syncore/'
 button_icon: 'flask'
