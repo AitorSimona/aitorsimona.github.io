@@ -3,35 +3,37 @@
 
   <p class="excerpt">
 
-{% if post.contribution != empty %}
 
     {% if post.lead_text != empty %}
     {{ post.lead_text }}
     {% endif %}
 
-    <element class="highlight">
-      <element class="gs">
-        My 
-        {% if post.individual_contribution_url != empty %}
-        <a href="{{ post.individual_contribution_url }}">individual contribution</a>:
-        {% else %}
-        individual contribution:
-        {% endif %}
-      </element>
-    </element>
+    {% if post.contribution != empty %}
+
+     <element class="highlight">
+       <element class="gs">
+         My 
+         {% if post.individual_contribution_url != empty %}
+         <a href="{{ post.individual_contribution_url }}">individual contribution</a>:
+         {% else %}
+         individual contribution:
+         {% endif %}
+       </element>
+     </element>
 
   
-    <ul>
-    {% for snippet in post.contribution %}
-       <li>
-         <p>
-         {{ snippet }}
-         </p>
-       </li>
-    {% endfor %}
-    </ul>
+     <ul>
+     {% for snippet in post.contribution %}
+        <li>
+          <p>
+          {{ snippet }}
+          </p>
+        </li>
+     {% endfor %}
+     </ul>
 
-   {% endif %}
+    {% endif %}
+
 
   </p>
 
