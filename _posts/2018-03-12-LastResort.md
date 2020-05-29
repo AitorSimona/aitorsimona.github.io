@@ -6,7 +6,7 @@ date: 2018-03-12
 categories: posts
 tags: SideScroller PixelArt C++ SDL 
 team: 4
-contribution_url: ''
+contribution_url: 'nAn'
 contribution:
  - Management (schedule...)
  - Testing & build delivery
