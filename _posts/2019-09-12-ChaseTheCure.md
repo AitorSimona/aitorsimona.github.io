@@ -10,8 +10,10 @@ contribution_url: 'https://aitorsimona.github.io/ChaseTheCure/'
 contribution:
  - Custom steering behaviours
  - Behaviour Trees
+ - Character Controllers (skills...)
  - Graphs (Animations, actions)
- - Game logic
+ - Game logic (alert state, combat...)
+ - Some of the UI (cure & panic, food & money, skill bars)
 featured_image: '/img/posts/ChaseTheCure.gif'
 project_link: 'https://aitorsimona.github.io/ChaseTheCure/'
 button_icon: 'flask'
