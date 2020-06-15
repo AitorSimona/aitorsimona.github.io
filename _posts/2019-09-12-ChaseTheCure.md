@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: '2019: Chase The Cure'
 date: 2019-09-12
 categories: posts

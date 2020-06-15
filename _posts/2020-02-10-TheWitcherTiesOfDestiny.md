@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: '2020: The Witcher: Ties of Destiny'
 date: 2020-02-10 
 categories: posts
