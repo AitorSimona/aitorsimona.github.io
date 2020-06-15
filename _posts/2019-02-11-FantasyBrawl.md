@@ -11,7 +11,7 @@ contribution:
  - Lead & Manager (schedule, meetings...)
  - Versioning & build delivery
  - Testing & merging
- - Base code (previous project: orBit) 
+ - Base code (previous project orBit) 
  - Player movement & animations
  - All 4 character abilities, combat
  - Aiming system (aim paths & auto-aim)
