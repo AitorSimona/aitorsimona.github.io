@@ -22,7 +22,7 @@ contribution:
  - Menus and Ingame UI
  - Keyboard/Mouse and DS4 mappings, help in XBOX mapping
 
-featured_image: '/img/posts/WIP.gif'
+featured_image: '/img/posts/BottomGear.mp4'
 project_link: 'https://netsquad.github.io/BottomGear/'
 button_icon: 'flask'
 button_text: 'Visit Project'
