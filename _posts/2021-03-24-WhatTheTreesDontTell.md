@@ -1,7 +1,7 @@
 ---
 layout: inner
 position: left
-title: '2021: What The Trees Don't Tell'
+title: '2021: What The Trees Dont Tell'
 date: 2021-03-24
 categories: posts
 tags: Single-player UE4 FPS Blueprints 
