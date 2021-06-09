@@ -5,7 +5,7 @@ title: '2020-2021: BottomGear'
 date: 2020-12-10
 categories: posts
 tags: Multiplayer Unity PUN2 C# 
-team: 1
+team: 4
 contribution: 
  - Leading, project management
  - Versioning, documentation, website
