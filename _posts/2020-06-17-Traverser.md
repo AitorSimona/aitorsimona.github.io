@@ -4,7 +4,7 @@ position: left
 title: '2020-2021: Traverser'
 date: 2021-07-21
 categories: posts
-tags: WIP Bachelor's_Thesis Unity C# 
+tags: Bachelor's_Thesis Unity C# 
 team: 1
 contribution: 
  - All features, including these below
