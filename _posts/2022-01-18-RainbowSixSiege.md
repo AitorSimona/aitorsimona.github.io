@@ -13,7 +13,7 @@ contribution:
  - Replay & Match Replay
  - Live support
 
-featured_image: '/img/posts/R6Siege.gif'
+featured_image: '/img/posts/R6Siege.jpg'
 project_link: '[R6Siege](https://www.ubisoft.com/en-gb/game/rainbow-six/siege)'
 button_icon: 'flask'
 button_text: 'Visit Project'
