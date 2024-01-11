@@ -7,11 +7,13 @@ categories: posts
 tags: Work Professional Anvil C++ GameplayProgrammer
 team: Hundreds
 contribution: 
- - Operator Reworks (from small to complete)
- - Damage calculation and attachments changes
+ - Operator Reworks (from small to complete) and ownership
+ - Weapon attachments
+ - Systems/Flows ownership
  - Refactors & Health
  - Replay & Match Replay
  - Live support
+ - Gameplay Anticheat support
 
 featured_image: '/img/posts/R6Siege.jpg'
 project_link: 'https://www.ubisoft.com/en-gb/game/rainbow-six/siege'
