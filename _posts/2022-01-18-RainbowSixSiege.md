@@ -8,7 +8,7 @@ tags: Work Professional Anvil C++ GameplayProgrammer
 team: Hundreds
 contribution: 
  - Operator Reworks (from small to complete) and ownership
- - Weapon attachments
+ - Incapacitation/Revival
  - Systems/Flows ownership
  - Refactors & Health
  - Replay & Match Replay
