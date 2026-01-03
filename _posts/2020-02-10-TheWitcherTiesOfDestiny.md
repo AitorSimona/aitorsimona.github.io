@@ -6,7 +6,7 @@ date: 2020-02-10
 categories: posts
 tags: TheWitcher GameEngine C++ SDL OpenGL DearImGui Recast PhysX Lua
 team: 29
-contribution_url: 'https://broken-gem-studio.github.io/Website/'
+contribution_url: 'https://github.com/Broken-Gem-Studio/Website/blob/gh-pages/portfolios/portfolio-aitor.html'
 featured_image: '/img/posts/TiesOfDestiny.gif'
 lead_text: 'A Hack n Slash based on The Witcher Series. Made by all the class (29 people) on our own game engine, Broken Engine. It was based on my first game engine CENTRAL 3D'
 contribution: 
@@ -23,7 +23,7 @@ contribution:
  - Audio Soundbank load
  - Pull requests management, QA 
 
-project_link: 'https://broken-gem-studio.github.io/Website/'
+project_link: 'https://github.com/Broken-Gem-Studio/The-Witcher-Ties-of-Destiny'
 button_icon: 'flask'
 button_text: 'Visit Project'
 
